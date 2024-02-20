@@ -42,7 +42,7 @@ function loadRequestTable() {
     .then(data => {
         var trHTML = ''
         let count = 0
-        for (object of data){ count ++
+        for ( let object of data){ count ++
             trHTML += '<tr>'
             trHTML += '<td>' + count + '</td>'
             trHTML += '<td>' + object.event.title + '</td>'
